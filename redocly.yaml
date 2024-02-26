@@ -1,0 +1,7 @@
+theme: 
+  codeSnippet: 
+    elementFormat: text
+  navbar: 
+    items: 
+      - href: _auth/idp-login
+        label: log in

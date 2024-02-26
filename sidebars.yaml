@@ -1,0 +1,5 @@
+- page: index.md
+- page: function-test.md
+  external: true
+- href: new
+- page: json-museum-openapi.json
