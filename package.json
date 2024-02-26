@@ -1,0 +1,24 @@
+{
+  "name": "docs",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Redocly portal template repository",
+  "scripts": {
+    "start": "npm run start:docs",
+    "start:docs": "portal develop -p 3000",
+    "openapi:lint": "redocly lint main --format=stylish",
+    "openapi:preview": "redocly preview-docs main"
+  },
+  "dependencies": {
+    "@redocly/portal": "*",
+    "@redocly/portal-plugin-async-api": "*",
+    "react": "17.0.2",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "@redocly/cli": "^1.0.0"
+  },
+  "overrides": {
+    "react": "17.0.2"
+  }
+}
