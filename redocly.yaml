@@ -5,3 +5,5 @@ theme:
     items: 
       - href: _auth/idp-login
         label: log in
+seo:
+  siteUrl: https://previews.redocly.app/
