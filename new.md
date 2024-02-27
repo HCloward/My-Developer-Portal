@@ -7,3 +7,4 @@ sidebar: sidebars.yaml
 {% code-snippet file="package.json" from="\"dependencies\": {" before="  \"devDependencies\"" language="json" /%}
 
 
+Adding some text
