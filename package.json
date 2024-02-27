@@ -1,0 +1,19 @@
+{
+  "name": "docs",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Redocly portal template repository",
+  "scripts": {
+    "start": "npm run start:docs",
+    "start:docs": "realm develop -p 3000",
+    "openapi:lint": "redocly lint main --format=stylish",
+    "openapi:preview": "redocly preview-docs main"
+  },
+  "dependencies": {
+    "@redocly/realm": "*",
+    "styled-components": "^5.3.11"
+  },
+  "devDependencies": {
+    "@redocly/cli": "^1.0.0"
+  }
+}
